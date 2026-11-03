@@ -12,22 +12,22 @@ class Campfire < Formula
   on_macos do
     on_arm do
       url "https://github.com/BoringInfraCo/Campfire/releases/download/v1.27.0/campfire-darwin-arm64.tar.gz"
-      sha256 "b6959a2da7467ef9e3ac62448640271ab32f9c5f614471f4341a08504ed51ffd"
+      sha256 "e76354ecf3c78305b4e449eefe84301f8bd726217832d79192be145f697987cd"
     end
     on_intel do
       url "https://github.com/BoringInfraCo/Campfire/releases/download/v1.27.0/campfire-darwin-x64.tar.gz"
-      sha256 "4122da26f8042a05548fd2b598fed611dff16187073470e1fc86cc77242d6669"
+      sha256 "a7af736048293388b60a861952f57983b5c2b0b0df5a438d2e9edaee378edf8e"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/BoringInfraCo/Campfire/releases/download/v1.27.0/campfire-linux-arm64.tar.gz"
-      sha256 "3d8b28509bf8827ab14555f98fb098ba1b8601c6e280705145f72b44aa9bd8b4"
+      sha256 "1c5e89e003cd2380610a276ec9f795166a38db475499222e6792f318a4b209f3"
     end
     on_intel do
       url "https://github.com/BoringInfraCo/Campfire/releases/download/v1.27.0/campfire-linux-x64.tar.gz"
-      sha256 "695a3276b39bbe1fdf087f2f9253a56a12364d189bcf4c8982f0f540354dc4c3"
+      sha256 "069c30ac399ea04777563e1c438f44f258388965483aaba7dbc46fc54fa3d9f9"
     end
   end
 
